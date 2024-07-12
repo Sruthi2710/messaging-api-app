@@ -15,6 +15,12 @@ public String printGreetings() {
 	return(" Saturday and Sunday");
 	}
 
+@GetMapping("sunday")
+
+public String printSunday() {
+	return(" party hard ");
+	}
+
 
 public static void main(String[] args) {
 	SpringApplication.run(MessagingApiAppApplication.class, args);
